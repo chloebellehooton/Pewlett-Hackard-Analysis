@@ -12,9 +12,10 @@
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-There are 1549 Eligible Mentors
+There are 1549 Eligible Mentors across various branches. 
     
-    ![Eligible Mentors](https://github.com/chloebellehooton/Pewlett-Hackard-Analysis/mentor_count.png)
+![Eligible Mentors](https://github.com/chloebellehooton/Pewlett-Hackard-Analysis/blob/341aa7521df91782f1a819239f90b2999ccd3487/mentor_count.png)
+    
     
     
 
