@@ -51,3 +51,15 @@ WHERE (de.to_date = ('1999-01-01'))
      AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
 
+-- DELIVERABLE 3
+-- Count of mentors by dept
+SELECT COUNT(me.emp_no), 
+	d.dept_name
+INTO mentor_count
+FROM mentorship_eligibilty as me
+	INNER JOIN dept_emp as de
+		ON (me.emp_no = de.emp_no)
+	INNER JOIN departments as d
+		ON (de.dept_no = d.dept_no)
+GROUP BY d.dept_name
+ORDER BY count DESC;
