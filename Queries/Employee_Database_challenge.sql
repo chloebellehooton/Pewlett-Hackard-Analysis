@@ -63,3 +63,18 @@ FROM mentorship_eligibilty as me
 		ON (de.dept_no = d.dept_no)
 GROUP BY d.dept_name
 ORDER BY count DESC;
+
+select count(emp_no)
+from mentorship_eligibilty;
+
+-- Current employees by department
+SELECT COUNT(ce.emp_no), 
+	d.dept_name
+FROM current_emp as ce
+	INNER JOIN dept_emp as de
+		on (ce.emp_no = de.emp_no)
+	INNER JOIN departments as d
+		ON (de.dept_no = d.dept_no)
+GROUP BY d.dept_name
+ORDER BY count DESC;
+
