@@ -5,6 +5,10 @@
 ### As the baby boomers are slowly retiring, many companies are looking to forecast how much of an output deficit they'll be in over the next few years Bobby's manager tasked him to find out how many employees will be retiring by each department. Bobby's manager also wants to focus on the next generation of senior employees who will have to pick up the brunt of the work once the "silver tsunami" hits so he wants Bobby to see how many were born in 1965 by department. They will hopefully be able to mentor the next crop of workers at the company. 
 
 ## Results
+![ERD](https://github.com/chloebellehooton/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
+
+![Retiring Employees by Title](https://github.com/chloebellehooton/Pewlett-Hackard-Analysis/blob/main/retiring_tiles.png)
+
 
 ## Summary
 
